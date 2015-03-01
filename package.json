@@ -1,0 +1,44 @@
+{
+  "name": "sails-generate-angel",
+  "version": "0.10.0",
+  "description": "sails generate angel",
+  "main": "./lib/SailsGenerator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "angel",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "balderdashy",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^0.9.0",
+    "commander": "^2.6.0",
+    "content-disposition": "^0.5.0",
+    "fs-extra": ">=0.16.3",
+    "lodash": ">=2.4.x",
+    "merge-defaults": ">=0.1.0",
+    "sails-generate": "^0.12.2"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "angel",
+    "behavior": "overrides `sails generate angel`",
+    "sailsVersion": "~0.10.0"
+  },
+  "bin": {
+    "angel": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rhpwn/sails-generate-angel.git"
+  }
+}
