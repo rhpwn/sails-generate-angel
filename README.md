@@ -2,7 +2,7 @@
 
 # sails-generate-angel
 
-A `angular frontend` generator for use with the Sails command-line interface.
+An `angular frontend` generator for use with the Sails command-line interface.
 
 Certain generators are installed by default in Sails, but they can be overridden.  Other generators create entirely new things.  Check the [Sails docs](http://sailsjs.org/#!documentation) for information on installing generator overrides / custom generators and information on building your own generators.
 
@@ -30,7 +30,7 @@ this command generates a new sails application with www folder included, here is
 ##### On the command line, from myApp/www folder
 
 ```sh
-$ angel component compnentName
+$ angel component componentName
 ```
 
 
